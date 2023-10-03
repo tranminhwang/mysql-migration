@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["es6"],
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "build",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]
+}

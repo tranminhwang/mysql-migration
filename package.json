@@ -1,0 +1,26 @@
+{
+  "name": "migrations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.6.1",
+    "ora": "^7.0.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.22",
+    "@types/node": "^20.8.2",
+    "@types/ora": "^3.2.0",
+    "@types/prompts": "^2.4.5",
+    "nodemon": "^3.0.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2"
+  }
+}
